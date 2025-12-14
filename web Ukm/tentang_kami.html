@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - UKM Bola Voli</title>
+    <link rel="stylesheet" href="style.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="nav-left">
+            <img src="img/logoUKM.jpg" class="logo">
+        </div>
+
+        <div class="nav-right">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="about.html" class="nav-item">About</a>
+            <a href="tentang_kami.html" class="nav-item">Tentang Kami</a>
+            <a href="admin.php" class="nav-item">Admin</a>
+            <a href="member.php" class="nav-item">Members</a>
+            <a href="contact.html" class="nav-contact">Contact</a>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- SEJARAH SECTION -->
+        <section id="history" class="history-section">
+
+            <!-- Background image -->
+            <img src="img/volly.jpg" alt="Lapangan voli Universitas Ma'soem dengan pemain berlatih" class="history-bg" loading="lazy">
+            <div class="history-container">
+                <div class="history-image">
+                    <img src="img/player.png" alt="Pemain Voli">
+                </div>
+                <div class="history-content">
+                    <h1 class="history-title">TENTANG UKM BOLA VOLI</h1>
+                    <p class="history-text">
+                        UKM Bola Voli Universitas Ma'soem adalah komunitas mahasiswa yang berdedikasi pada pengembangan olahraga bola voli di lingkungan kampus. Didirikan untuk menjawab minat besar mahasiswa terhadap olahraga, UKM ini menyediakan pelatihan, pembinaan, dan kesempatan kompetisi untuk semua tingkatan.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- BERITA SECTION -->
+        <section id="berita" class="values-section">
+            <!-- Background image  -->
+            <div class="values-container">
+                <article class="value-card">
+                    <div class="card-image">
+                        <img src="img/volly.jpg" alt="Berita - Pelatihan Intens">
+                    </div>
+                    <div class="card-body">
+                        <h3>Berita: Pelatihan Intensif Musim Ini</h3>
+                        <p>UKM akan menggelar program pelatihan intensif selama 6 minggu untuk mempersiapkan tim menghadapi kompetisi antar kampus.</p>
+                        <button type="button" class="toggle-btn" aria-expanded="false">Baca Selengkapnya</button>
+                        <div class="more" aria-hidden="true">
+                            <p>Pelatihan meliputi teknik servis, passing, blocking, dan strategi. Peserta diharapkan hadir pada sesi latihan rutin setiap Jumat dan Minggu.</p>
+                            <a href="berita-1.html" class="read-more">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="value-card">
+                    <div class="card-image">
+                        <img src="img/player.png" alt="Berita - Rekrutmen Anggota Baru">
+                    </div>
+                    <div class="card-body">
+                        <h3>Berita: Rekrutmen Anggota Baru Dibuka</h3>
+                        <p>Pendaftaran anggota baru UKM Bola Voli resmi dibuka. Ayo tunjukkan minat dan kemampuanmu untuk menjadi bagian dari tim kami.</p>
+                        <button type="button" class="toggle-btn" aria-expanded="false">Baca Selengkapnya</button>
+                        <div class="more" aria-hidden="true">
+                            <p>Daftar melalui halaman Pendaftaran, persyaratan umum, dan jadwal seleksi akan diumumkan di pengumuman resmi berikutnya.</p>
+                            <a href="berita-2.html" class="read-more">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="value-card">
+                    <div class="card-image">
+                        <img src="img/prestasi1.jpg" alt="Berita - Kompetisi Internal">
+                    </div>
+                    <div class="card-body">
+                        <h3>Berita: Kompetisi Internal Antar Angkatan</h3>
+                        <ul>
+                            <li>Tanggal: Sabtu, 20 Desember</li>
+                            <li>Tempat: Lapangan Voli Kampus</li>
+                        </ul>
+                        <button type="button" class="toggle-btn" aria-expanded="false">Baca Selengkapnya</button>
+                        <div class="more" aria-hidden="true">
+                            <p>Kegiatan bertujuan memperkuat kebersamaan dan menjadi ajang seleksi bagi pemain yang ingin masuk ke tim utama.</p>
+                            <a href="berita-3.html" class="read-more">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- PENGUMUMAN SECTION (Carousel) -->
+        <section id="pengumuman" class="gallery-section">
+            <h2 class="gallery-title">PENGUMUMAN UKM</h2>
+
+            <div class="pengumuman-slider" aria-roledescription="carousel" aria-label="Pengumuman UKM">
+                <div class="slides">
+                    <figure class="slide" role="group" aria-roledescription="slide" aria-label="1 of 6">
+                        <a class="slide-card" href="pengumuman-1.html" aria-label="Penutupan Pendaftaran - Selengkapnya">
+                            <img src="img/prestasi4.jpg" alt="Penutupan Pendaftaran">
+                            <figcaption class="card-content">
+                                <h4>Penutupan Pendaftaran</h4>
+                                <p>Pendaftaran anggota baru akan ditutup pada tanggal 10 Januari. Segera daftarkan dirimu!</p>
+                                <span class="cta">Selengkapnya</span>
+                            </figcaption>
+                        </a>
+                    </figure>
+
+                    <figure class="slide" role="group" aria-roledescription="slide" aria-label="2 of 6">
+                        <a class="slide-card" href="pengumuman-2.html" aria-label="Perubahan Jadwal Latihan - Selengkapnya">
+                            <img src="img/prestasi2.jpg" alt="Perubahan Jadwal Latihan">
+                            <figcaption class="card-content">
+                                <h4>Perubahan Jadwal Latihan</h4>
+                                <p>Jadwal latihan berubah sementara menjadi Senin & Jumat pukul 16.00 - 18.00 selama bulan Desember.</p>
+                                <span class="cta">Selengkapnya</span>
+                            </figcaption>
+                        </a>
+                    </figure>
+
+                    <figure class="slide" role="group" aria-roledescription="slide" aria-label="3 of 6">
+                        <a class="slide-card" href="pengumuman-3.html" aria-label="Undangan Pertandingan Persahabatan - Selengkapnya">
+                            <img src="img/prestasi3.jpg" alt="Undangan Pertandingan Persahabatan">
+                            <figcaption class="card-content">
+                                <h4>Undangan Pertandingan Persahabatan</h4>
+                                <p>Tim kami akan mengikuti pertandingan persahabatan melawan kampus tetangga pada minggu depan.</p>
+                                <span class="cta">Selengkapnya</span>
+                            </figcaption>
+                        </a>
+                    </figure>
+
+                    <figure class="slide" role="group" aria-roledescription="slide" aria-label="4 of 6">
+                        <a class="slide-card" href="pengumuman-4.html" aria-label="Latihan Tambahan - Selengkapnya">
+                            <img src="img/prestasi5.jpg" alt="Latihan Tambahan">
+                            <figcaption class="card-content">
+                                <h4>Latihan Tambahan</h4>
+                                <p>Latihan tambahan untuk persiapan kompetisi akan diadakan tiga kali dalam seminggu.</p>
+                                <span class="cta">Selengkapnya</span>
+                            </figcaption>
+                        </a>
+                    </figure>
+
+                    <figure class="slide" role="group" aria-roledescription="slide" aria-label="5 of 6">
+                        <a class="slide-card" href="pengumuman-5.html" aria-label="Technical Meeting - Selengkapnya">
+                            <img src="img/prestasi6.jpg" alt="Technical Meeting">
+                            <figcaption class="card-content">
+                                <h4>Technical Meeting</h4>
+                                <p>Technical meeting untuk peserta kompetisi akan dilaksanakan 2 hari sebelum pertandingan.</p>
+                                <span class="cta">Selengkapnya</span>
+                            </figcaption>
+                        </a>
+                    </figure>
+
+                    <figure class="slide" role="group" aria-roledescription="slide" aria-label="6 of 6">
+                        <a class="slide-card" href="pengumuman-6.html" aria-label="Persiapan Kompetisi - Selengkapnya">
+                            <img src="img/lapangan.jpg" alt="Persiapan Kompetisi">
+                            <figcaption class="card-content">
+                                <h4>Persiapan Kompetisi</h4>
+                                <p>Persiapan pengiriman tim untuk kompetisi antarkampus dimulai minggu depan.</p>
+                                <span class="cta">Selengkapnya</span>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+
+                <button class="slider-arrow prev" aria-label="Sebelumnya">‹</button>
+                <button class="slider-arrow next" aria-label="Berikutnya">›</button>
+
+                <div class="slider-dots" role="tablist" aria-label="Pilih pengumuman"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="logo-footer">
+                    <img src="img/logoUKM.jpg">
+                </div>
+                <div class="social-media">
+                    <a href="#" class="instagram">
+                    <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="twitter">
+                    <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="#" class="youtube">
+                    <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div class="support">
+                    <h4>Support by:</h4>
+                    <br>
+                    <a href="https://www.airalmasoem.com/">PT. Muawanah Al-Ma’Soem</a>
+                    <a href="https://masoemarias.com/">PT. Ma’soem Arias</a>
+                    <a href="https://almasoembank.co.id/">BPRS Al-Ma’soem</a>
+                </div>
+
+                <div class="partner">
+                    <h4>Partnered with:</h4>
+                    <br>
+                    <a href="https://uinsgd.ac.id/">UIN Sunan Gunung Djati</a>
+                    <a href="https://umbandung.ac.id/">Universitas Muhammadiyah Bandung</a>
+                    <a href="https://kd-cibiru.upi.edu/">UPI Cibiru</a>
+                </div>
+
+                <div class="other">
+                    <a href="about.html">About</a>
+                    <a href="tentang_kami.html">Tentang Kami</a>
+                    <a href="members.html">Members</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="form.html">Register</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">@Copyright. All right reserved</p>
+    </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
